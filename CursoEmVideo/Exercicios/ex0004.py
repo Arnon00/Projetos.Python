@@ -1,0 +1,10 @@
+ent = input('Digite alguma coisa: ')
+
+print('oque você digitou e somente numerico? {}'.format(ent.isnumeric()))
+print('oque você digitou e somente alfabetico? {}'.format(ent.isalpha()))
+print('oque você digitou e alfanumerico? {}'.format(ent.isalnum()))
+print('oque você digitou esta tudo em maiusculo? {}'.format(ent.isupper()))
+print('oque você digitou esta tudo em minusculo? {}'.format(ent.islower()))
+print('oque você escrevel tem letras maiusculas e minusculas ao mesmo tempo? {}'.format(ent.istitle()))
+print('oque você digitou pertence a {}'.format(type(ent)))
+print('você so deu espaços? {}'.format(ent.isspace()))
